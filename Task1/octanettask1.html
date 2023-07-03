@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Octanet Intern</title>
+
+    <style>
+      body{
+        background-image: 'flip.png';
+        background-color: rgb(255, 162, 0);
+      }
+        .welcome{
+            background-color: rgb(129, 49, 49);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .yt{
+            margin: 10px 0 0 0;
+            box-sizing: border-box;
+            
+        }
+        .form{
+          background-color: rgb(255, 123, 0);
+        }
+        .container{
+            display: flex;
+            background-color: rgb(232, 126, 51);
+            height: 55vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+          display: flex;
+          margin: 10px 10px 10px 10px;
+          height: 35vh;
+          width: 50vw;
+            background-color: rgb(255, 184, 125);
+            border: 2px solid black ;
+            justify-content: center;
+            align-items: center;
+        }
+        #myim{
+          height: 30vh;
+          justify-content: center;
+            align-items: center;
+          /* width: 10vw; */
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Khimsar Resort-Jaipur</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Vacation</a></li>
+                  <li><a class="dropdown-item" href="#">Celebrations</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">More</a>
+              </li>
+            </ul>
+            <div class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+        <div class="welcome"><h1>Khimsar-A Place to visit</h1>
+          <h3>Sand Dunes village in 
+              Rajasthan
+          </h3></div>
+          <div class="container">
+            <div class="item"><img id="myim" src='img\img1.jpg' alt="ERROR" ></div>
+            <div class="item"><img id="myim" src='img\Khimsar-Fort.jpg' alt="ERROR" ></div>
+            <div class="item"><img id="myim" src='img\lake.jpg' alt="ERROR" ></div>
+            <div class="item"><img id="myim" src='img\rooms.jpg' alt="ERROR" ></div>
+        </div>
+        <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/djuWK1fi9bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br></div>
+            </pre>
+            <p><h2>What you sill see is</h2></p>
+            <ul>
+                <li><h4>Sand Dunes</h4></li>
+                <li><h4>Lakes</h4></li>
+                <li><h4>Camels</h4></li>       
+            </ul>
+            <div>
+        <h3>Online Resort Booking Form</h3>
+        <div class="form">
+           <input type="text" placeholder="Enter Your Name"><br>
+           <label for="sectionida">
+            <input type="radio" value="Section A" name="Section" id="sectionida"> Destination Wedding
+           </label> 
+           <label for="sectionidb">
+            <input type="radio" value="Section B" name="Section" id="sectionidb">Vacation Stays
+           </label>
+           <label for="sectionidc">
+            <input type="radio" value="Section C" name="Section" id="sectionidc">Something Else
+           </label>
+
+           <input type="checkbox" id="foodcanteen" name="canteen">
+           <label for="foodcanteen">Want 
+            Membership card
+           </label>
+           <br>
+           <textarea name="explain" id="explain" cols="30" rows="1" placeholder="Explain if you chose something else"></textarea>
+           <br>
+           <select name="car" id="car">
+            <option value="no car">select payment option</option>
+            <option value="omni1">credit card</option>
+            <option value="omni2">debit card</option>
+            <option value="omni3">net-banking</option>
+           </select>
+           <br>
+           
+           
+          </div>
+    </div>
+    
+</body>
+</html>
